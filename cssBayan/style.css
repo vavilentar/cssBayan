@@ -12,6 +12,8 @@
 	cursor: pointer;
 	padding: 0.5em 1em;
 	font-size: 1.2em;
+	transition: background-color .5s ease-out;
+
 }
 
 .meme-input {
@@ -28,4 +30,16 @@
 
 .meme-title:hover {
 	background-color: deepskyblue;
+}
+
+.meme-input:checked ~ .meme-img-wrapper {
+	display: block;
+}
+
+.meme-input:checked ~ .meme-title {
+	background-color: deepskyblue;
+}
+
+.meme-img-wrapper {
+	display: none;
 }
