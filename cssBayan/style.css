@@ -1,0 +1,31 @@
+.accordion {
+	max-width: 500px;
+	margin: 1em auto;
+}
+
+.accord-item  {
+	border: 1px solid deepskyblue;
+}
+
+.meme-title {
+	display: block;
+	cursor: pointer;
+	padding: 0.5em 1em;
+	font-size: 1.2em;
+}
+
+.meme-input {
+	width: 0;
+	height: 0;
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+}
+
+.meme-img-wrapper img {
+	width: 100%;
+}
+
+.meme-title:hover {
+	background-color: deepskyblue;
+}
